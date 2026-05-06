@@ -8,7 +8,7 @@ version = "0.1.1"
 description = "A lightweight HDF5 time-series viewer for large 1D datasets"
 requires-python = ">=3.10"
 authors = [
-  { name = "Lab internal" }
+  { name = "Takaki AKIBA" }
 ]
 dependencies = [
   "numpy>=1.23",
