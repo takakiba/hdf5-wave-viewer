@@ -102,6 +102,10 @@ uv run hdf5-wave-viewer
 表示したい dataset を選択し、sampling rate、表示する時間範囲、表示モードを
 指定して `Reload view` を押すと波形が描画されます。
 
+Qitaの記事も書きました。
+
+https://qiita.com/takakiba/items/b6d78a4249b12c0b72b3
+
 ## Sampling Rate
 
 If a dataset has one of the following HDF5 attributes, the viewer uses it as the
