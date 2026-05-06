@@ -98,3 +98,8 @@ uv run hdf5-wave-viewer
 - HDF5 files may contain sensitive or proprietary measurement data. The default
   `.gitignore` excludes common HDF5 file extensions so local data files are not
   accidentally committed.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+

@@ -16,6 +16,7 @@ dependencies = [
   "pyqtgraph>=0.13",
   "PySide6>=6.5",
 ]
+license = "MIT"
 
 [project.scripts]
 hdf5-wave-viewer = "hdf5_wave_viewer.app:main"
