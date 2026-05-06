@@ -23,7 +23,14 @@ a min/max envelope.
 
 This project requires Python 3.10 or newer.
 
-Install from a local checkout:
+Clone the repository:
+
+```bash
+git clone https://github.com/takakiba/hdf5-wave-viewer.git
+cd hdf5-wave-viewer
+```
+
+Install from the cloned checkout:
 
 ```bash
 pip install .
@@ -37,7 +44,7 @@ uv sync
 
 ## Usage
 
-Launch the viewer:
+After installation, launch the viewer:
 
 ```bash
 hdf5-wave-viewer
@@ -54,6 +61,46 @@ With uv:
 ```bash
 uv run hdf5-wave-viewer
 ```
+
+## 日本語での使い方
+
+Python 3.10 以上が必要です。
+
+まず、リポジトリを clone します。
+
+```bash
+git clone https://github.com/takakiba/hdf5-wave-viewer.git
+cd hdf5-wave-viewer
+```
+
+通常の Python 環境でインストールする場合:
+
+```bash
+pip install .
+```
+
+viewer を起動します。
+
+```bash
+hdf5-wave-viewer
+```
+
+起動時に HDF5 ファイルを指定することもできます。
+
+```bash
+hdf5-wave-viewer path/to/data.h5
+```
+
+`uv` を使う場合:
+
+```bash
+uv sync
+uv run hdf5-wave-viewer
+```
+
+画面上で HDF5 ファイルを開くと、1次元 dataset の一覧が表示されます。
+表示したい dataset を選択し、sampling rate、表示する時間範囲、表示モードを
+指定して `Reload view` を押すと波形が描画されます。
 
 ## Sampling Rate
 
@@ -102,4 +149,3 @@ uv run hdf5-wave-viewer
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
